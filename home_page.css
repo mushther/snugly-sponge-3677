@@ -309,7 +309,28 @@ h5 {
         height: auto;
     }
 
+    #footer {
+        margin-top: 2600px;
+    }
 
+    #footerlist>a {
+        font-size: 8px;
+    }
+
+    #footerlist {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2.1fr);
+        width: 90%;
+    }
+
+    #copyright {
+        width: 90%;
+    }
+
+    #copyright>p {
+        font-size: 10px;
+    }
 }
 
 @media all and (min-width: 321px) and (max-width: 481px) {
@@ -349,5 +370,28 @@ h5 {
 
     #bigbox2>div>img {
         height: auto;
+    }
+
+    #footer {
+        margin-top: 2600px;
+    }
+
+    #footerlist>a {
+        font-size: 6px;
+    }
+
+    #footerlist {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2.1fr);
+        width: 90%;
+    }
+
+    #copyright {
+        width: 90%;
+    }
+
+    #copyright>p {
+        font-size: 10px;
     }
 }
