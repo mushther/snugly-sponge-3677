@@ -85,152 +85,7 @@ body {
     background-color: rgb(75, 74, 74);
 }
 
-/*navbar upper*/
-#bigbox {
-    width: 75%;
-    height: 1200px;
-    margin: auto;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#bigbox1 {
-    width: 68%;
-    height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 5px;
-}
-
-#bigbox11 {
-    width: 66%;
-    height: 100%;
-    text-align: start;
-}
-
-#bigbox11>div>img {
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
-}
-
-#bigbox11>div>h3 {
-    margin: 2px 0px -5px 10px;
-}
-
-#bigbox11>div>p {
-    font-size: 10px;
-    width: 95%;
-    margin-left: 10px;
-
-}
-
-h5 {
-    margin: 0px 0px -7px 0px;
-}
-
-#bigbox11>hr {
-    background-color: red;
-    width: 90px;
-    height: 2px;
-    margin-left: -2px;
-}
-
-#bigbox11>div {
-    width: 100%;
-    height: auto;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-#bigbox12 {
-    width: 32%;
-    height: 100%;
-}
-
-#bigbox12>hr {
-    width: 90%;
-    margin: -4px 0px 0px 0px;
-}
-
-#bigbox12>div {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 1%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#bigbox12>div>img {
-    width: 45%;
-    height: 70px;
-}
-
-#bigbox12>div>p {
-    width: 40%;
-    font-size: 13px;
-}
-
-#bigbox2 {
-    width: 30%;
-    height: 100%;
-}
-
-#bigbox2>div {
-    width: 100%;
-    height: 9%;
-    margin: auto;
-    margin-top: 4%;
-}
-
-#bigbox2>h5+hr {
-    background-color: red;
-    width: 108px;
-    height: 2px;
-    margin-left: -1px;
-}
-
-#bigbox2 {
-    width: 32%;
-    height: 100%;
-    padding-left: 5px;
-    padding: 5px 0px 0px 8px;
-    background-color: rgba(128, 128, 128, 0.046);
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}
-
-#bigbox2>hr {
-
-    width: 92%;
-    margin: 10px 0px 0px 12px;
-}
-
-#bigbox2>div {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 1%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#bigbox2>div>img {
-    width: 45%;
-    height: 70px;
-}
-
-#bigbox2>div>p {
-    width: 40%;
-    font-size: 13px;
-}
-
-/*footer Start Here*/
+/*footer start*/
 #footer {
     width: 100%;
     height: 200px;
@@ -344,32 +199,40 @@ h5 {
     margin: 10px 15px 0px 0px;
 }
 
+/* new editiding   */
+
+.lifeDiv {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    border-radius: 5px;
+    background-color: rgba(186, 182, 182, 0.824);
+}
+
+.lifeDiv>div>img {
+    width: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.lifeDiv>div>p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    margin: 40px 0px -25px 0px;
+}
+
 @media all and (min-width: 482px) and (max-width: 900px) {
-    #bigbox {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    #bigbox1 {
-        width: 100%;
-        height: auto;
-        padding-bottom: 10px;
-    }
-
     #navbar2m>div {
         font-size: 10px;
-    }
-
-    #bigbox2 {
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-        border: 1px solid black;
-    }
-
-    #bigbox2>div>img {
-        height: auto;
     }
 
     #footer {
@@ -397,42 +260,8 @@ h5 {
 }
 
 @media all and (min-width: 321px) and (max-width: 481px) {
-    #bigbox {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    #bigbox1 {
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        padding-bottom: 10px;
-        box-shadow: none;
-    }
-
-    #bigbox11>div {
-        width: 150%;
-    }
-
-    #bigbox12>div {
-        margin-top: 30px;
-        width: 300%;
-    }
-
     #navbar2m>div {
         font-size: 3px;
-    }
-
-    #bigbox2 {
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-        border: 1px solid black;
-    }
-
-    #bigbox2>div>img {
-        height: auto;
     }
 
     #footer {

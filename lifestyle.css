@@ -132,7 +132,7 @@ h5 {
 
 #bigbox11>hr {
     background-color: red;
-    width: 90px;
+    width: 75px;
     height: 2px;
     margin-left: -2px;
 }
@@ -342,6 +342,36 @@ h5 {
 #barFooter>i {
     font-size: 45px;
     margin: 10px 15px 0px 0px;
+}
+
+/* lifstyle gallery*/
+#lifeDiv {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    border-radius: 5px;
+    background-color: rgba(186, 182, 182, 0.824);
+}
+
+#lifeDiv>div>img {
+    width: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#lifeDiv>div>p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    margin: 40px 0px -25px 0px;
 }
 
 @media all and (min-width: 482px) and (max-width: 900px) {
