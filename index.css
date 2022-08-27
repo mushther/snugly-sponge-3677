@@ -47,7 +47,58 @@ h3 {
     border: 1px solid rgb(210, 208, 206)
 }
 
+#container>button:hover {
+    background-color: rgb(131, 131, 249);
+    color: white;
+    font-weight: bold;
+}
+
 #email,
 #name {
     margin: 0px 0px 15px 0px;
+}
+
+#withoutlogin {
+    margin: auto;
+    width: 30%;
+    height: 40px;
+    background-color: rgba(86, 90, 90, 0.055);
+    margin-top: 20px;
+    border: 1px solid rgb(210, 208, 206);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#withoutlogin:hover {
+    background-color: rgb(131, 131, 249);
+    color: white;
+    font-weight: bold;
+}
+
+#withoutlogin>a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 482px) and (max-width: 900px) {
+    form {
+        width: 45%;
+    }
+
+    #withoutlogin {
+        width: 45%;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 482px) {
+    form {
+        width: 75%;
+        padding: 0px 5px 0px 5px;
+    }
+
+    #withoutlogin {
+        width: 75%;
+        padding: 0px 5px 0px 5px;
+    }
 }

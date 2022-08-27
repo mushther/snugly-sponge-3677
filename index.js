@@ -17,7 +17,7 @@ function myfun(event){
     }else if(email.length<10){
         document.querySelector("p").innerText="Enter Your Correct Email";
         document.querySelector("p").style.color="red"
-    }else if(password<8){
+    }else if(password.length<8){
         document.querySelector("p").innerText="Enter 8 Character Password";
         document.querySelector("p").style.color="red"
     }

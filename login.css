@@ -47,7 +47,26 @@ h3 {
     border: 1px solid rgb(210, 208, 206)
 }
 
+#container>button:hover {
+    background-color: rgb(131, 131, 249);
+    color: white;
+    font-weight: bold;
+}
+
 #email,
 #name {
     margin: 0px 0px 15px 0px;
+}
+
+@media all and (min-width: 482px) and (max-width: 900px) {
+    form {
+        width: 45%;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 482px) {
+    form {
+        width: 75%;
+        padding: 0px 5px 0px 5px;
+    }
 }
