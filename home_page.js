@@ -135,3 +135,23 @@ document.querySelector("#lifestyle1").addEventListener("click",function(){
 document.querySelector("#gallery1").addEventListener("click",function(){
    window.location.href="gallary.html"
 })
+document.querySelector("#entertainment1").addEventListener("click",function(){
+   window.location.href="sports.html"
+})
+document.querySelector("#job1").addEventListener("click",function(){
+   window.location.href="technolgy.html"
+})
+document.querySelector("#south1").addEventListener("click",function(){
+   window.location.href="nation.html"
+})
+document.querySelector("#world1").addEventListener("click",function(){
+   window.location.href="lifestyle.html"
+})
+
+
+/*  <div id="entertainment">Entertainment</div>
+            <div id="job">Jobs & Eduction</div>
+            <div id="south">South</div>
+            <div id="world">World</div>
+            <div id="more">More..</div>
+            */

@@ -230,6 +230,19 @@ h5 {
     font-size: 13px;
 }
 
+/*hover*/
+#bigbox2>div:hover {
+    width: 101%;
+}
+
+#bigbox11>div:hover {
+    width: 99%;
+}
+
+#bigbox12>div:hover {
+    width: 101%;
+}
+
 /*footer Start Here*/
 #footer {
     width: 100%;
@@ -394,6 +407,14 @@ h5 {
     #copyright>p {
         font-size: 10px;
     }
+
+    #navbardiv {
+        font-size: 12px;
+    }
+
+    #bigbox12 {
+        padding: 0px 10px 0px 15px;
+    }
 }
 
 @media all and (min-width: 321px) and (max-width: 481px) {
@@ -457,4 +478,26 @@ h5 {
     #copyright>p {
         font-size: 10px;
     }
+
+    #navbardiv {
+        font-size: 10px;
+    }
+
+    #sideBarDiv {
+        width: 45%;
+    }
+
+    /*hover*/
+    #bigbox2>div:hover {
+        width: 102%;
+    }
+
+    #bigbox11>div:hover {
+        width: 152%;
+    }
+
+    #bigbox12>div:hover {
+        width: 305%;
+    }
+
 }

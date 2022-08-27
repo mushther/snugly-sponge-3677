@@ -116,7 +116,8 @@ body {
 }
 
 #bigbox11>div>h3 {
-    margin: 2px 0px -5px 10px;
+    text-align: start;
+    margin: 2px 0px -4px 10px;
 }
 
 #bigbox11>div>p {
@@ -325,6 +326,7 @@ h5 {
 }
 
 #bigdiv>h3 {
+    text-align: start;
     margin: 25px 0px 0px 15px;
 }
 
@@ -342,6 +344,54 @@ h5 {
 #barFooter>i {
     font-size: 45px;
     margin: 10px 15px 0px 0px;
+}
+
+/* new editiding   */
+
+.lifeDiv {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    border-radius: 5px;
+    background-color: rgba(186, 182, 182, 0.824);
+}
+
+.lifeDiv>div>img {
+    width: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.lifeDiv>div>img:hover {
+    width: 101%;
+}
+
+.lifeDiv>div>p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    margin: 40px 0px -25px 0px;
+}
+
+/*hover*/
+#bigbox2>div:hover {
+    width: 101%;
+}
+
+#bigbox11>div:hover {
+    width: 99%;
+}
+
+#bigbox12>div:hover {
+    width: 101%;
 }
 
 @media all and (min-width: 482px) and (max-width: 900px) {
@@ -394,6 +444,28 @@ h5 {
     #copyright>p {
         font-size: 10px;
     }
+
+    /**/
+    h3 {
+
+        margin-top: 2500px;
+    }
+
+    .lifeDiv {
+        margin-bottom: -2550px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #navbardiv {
+        font-size: 10px;
+    }
+
+    /**/
+    #bigbox12 {
+        padding: 0px 10px 0px 15px;
+    }
+
 }
 
 @media all and (min-width: 321px) and (max-width: 481px) {
@@ -457,4 +529,43 @@ h5 {
     #copyright>p {
         font-size: 10px;
     }
+
+    /**/
+    h3 {
+
+        margin-top: 2500px;
+    }
+
+    .lifeDiv {
+        margin-bottom: -2550px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #navbardiv {
+        font-size: 10px;
+    }
+
+    #sideBarDiv {
+        width: 45%;
+    }
+
+    /**/
+    /*hover*/
+    #bigbox2>div:hover {
+        width: 102%;
+    }
+
+    #bigbox11>div:hover {
+        width: 152%;
+    }
+
+    #bigbox12>div:hover {
+        width: 305%;
+    }
+
+    #barFooter>i {
+        font-size: 25px;
+    }
+
 }
