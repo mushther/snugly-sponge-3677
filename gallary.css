@@ -217,11 +217,15 @@ body {
     overflow-x: auto;
 }
 
+#img_scroll {
+    display: flex;
+}
+
 .lifeDiv1::-webkit-scrollbar {
     width: 0px;
 }
 
-.lifeDiv1>img {
+.lifeDiv1>div>div>img {
     min-width: 380px;
     height: 250px;
     line-height: 250px;
@@ -266,6 +270,19 @@ h3 {
     margin: 40px 0px -25px 0px;
 }
 
+#leftbtn {
+    color: red;
+    position: absolute;
+    margin-right: 70%;
+    font-size: 50px;
+}
+
+#rightbtn {
+    color: red;
+    position: absolute;
+    margin-left: 70%;
+    font-size: 50px;
+}
 
 
 @media all and (min-width: 482px) and (max-width: 900px) {
@@ -304,6 +321,10 @@ h3 {
 
     #navbardiv {
         font-size: 12px;
+    }
+
+    #sideBarDiv {
+        width: 30%;
     }
 }
 
